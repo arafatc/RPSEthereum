@@ -45,8 +45,7 @@ d.	In case of a DRAW in either point b or point c, the winner should be set to a
 6.	For all of these interactions, corresponding functions in RPSGame are called.
 
  
-Problem Statement
-
+Approach
 1.	Completed the __validateAndExecute function in RPSGame:
 a.	If at least one attempt is invalid, completed the game accordingly. DRAW if both are invalid, WIN if one is invalid. Winner address should be address(0) in case of DRAW
 b.	If both attempts are valid, compared choices based on game logic and assign DRAW or WIN accordingly. Winner address should be address(0) in case of DRAW
